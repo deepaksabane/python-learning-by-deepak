@@ -147,3 +147,55 @@ print(st2.isprintable())  # it will show false because \n is not printable it wi
 ################ isspace() #################
 '''The ispace() method return true only and only if the strings contains white spaces, else return false'''
 
+st3 = "    "  # using spacebar 
+print(st3.isspace())  # The output will be true
+
+st4 = "         "  # using tabbar
+print(st4.isspace())  # true 
+
+
+################## islittle #################
+'''The islittle() returns true only , if the first letter of each word of the string is capatalized , else return false'''
+
+dp = "World Heath Organization "
+print(dp.istitle())  # it will return true because it contains capital letter of each string 
+
+
+dp1 = "World heath organization "
+print(dp1.istitle())  # it will return false because some string at the first contains small letter 
+
+############## isupper() ###############
+'''The isupper() method returns true is all the characters in the strings are uppercase , else return false'''
+
+dp4 = " WORLD HEALTH ORGANIZATION"
+print(dp4.isupper()) # it will show the true output 
+
+dp5 = " World Health Organization "
+print(dp5.isupper())  # it will return false beacuse some letters are small 
+
+
+############### startswith() ################
+'''The startswith() method checks if the string starts with a given value , if yes then return true , else return false '''
+
+dp5 = "python should learn by devops engineer"
+
+print(dp5.startswith("python")) # it will show the output true 
+print(dp5.startswith("devops")) # it will show the output false 
+
+################ swapcase() ####################
+'''The swapcase() method changes the character casing of the string .upper case are converted 
+to lower case and the lower case to upper case '''
+
+dp6 = "Python is a Intepreted langauge "
+print(dp6.swapcase())  # output - pYTHON IS A iNTEPRETED LANGAUGE
+
+
+
+############# title() #####################
+'''The title() method capitalizes each letter of the word within the string '''
+
+dp7 = "he's name is shivansh , Shivansh is the honest person "
+print(dp7.title())  # output - He'S Name Is Shivansh , Shivansh Is The Honest Person
+
+
+
