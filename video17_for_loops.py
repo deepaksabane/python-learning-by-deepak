@@ -13,7 +13,7 @@ for i in name:
     print(i)  # for string 
 
 
-iterating over a list 
+# iterating over a list 
 colors = ["Red", "orange" , "purple", "jamun"]
 for color in colors:
   print(color)  # we are taking the value in colors 
