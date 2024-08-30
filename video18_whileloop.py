@@ -15,3 +15,13 @@ while(g <= 40):
     g = int(input("Enter the number : "))
     print(g)
 print(" Done with the loop ")
+
+####### Reverse while loop ###### Decrementing while loop 
+count = 10
+while(count >= 0):
+    print(count)
+    count = count -1 
+
+
+
+    
